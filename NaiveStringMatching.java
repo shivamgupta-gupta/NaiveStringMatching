@@ -11,10 +11,6 @@ public class StringMatching1 {
 		s1 = sc.nextLine();
 		System.out.println("Enter string 2 - ");
 		s2 = sc.nextLine();
-		char cs1[] = new char[100];
-		char cs2[] = new char[100];
-		cs1 = s1.toCharArray();
-		cs2 = s2.toCharArray();
 		int m = s1.length();
 		int n = s2.length();
 		if(m<=0 || n<=0){
